@@ -2,6 +2,8 @@
 
 **Note- This module is made using help from - https://github.com/WongKinYiu/yolov7**
 
+[!Detection_image.png](https://github.com/amitamola/Strawberry-Counting-and-Ripeness-detection/blob/main/results/final_test/output/2236.png)
+
 ## 1. Here's description of each Notebook in this codebase:
 -  **1. Dataset split NB**: This noteboook was used to split the original 3000 images into train, validation and test set in 0.8, 0.1 and 0.1 ratio. Instructions to perform same available inside the notebook.
 
@@ -32,7 +34,7 @@
 
 ## 3. Description of important files:
 
-- *best.pt* - The best model we obtain after training on our custom dataset in Google Colab
+- *best.pt* - The best model we obtain after training on our custom dataset in Google Colab. If the file is corrupt or not available, one can download it from the drive link - https://tinyurl.com/uuc5rf4u
 
 - *detect.py* - Python script to perform detection using GPU
 
@@ -88,6 +90,8 @@ Clone the yolov7 repository from GitHub by running the following command in the 
     - You can change the epochs according to your need.
     - Also, you can change the batch size according to your GPU. If the training gives a memory error, try reducing it. I eventually had to reduce mine to 4.
 
+[!training.jpg](https://github.com/amitamola/Strawberry-Counting-and-Ripeness-detection/blob/main/training.jpg)
+
 7. Inference
     - Just download the final best.pt file in the same folder in colab that you trained
     - Either perform infernce using the command provided in the notebook or
@@ -95,3 +99,7 @@ Clone the yolov7 repository from GitHub by running the following command in the 
     - Or the **5. Inference Notebook for Group 8 test images.ipynb** file to run inference on any image you want.
 
 ### NOTE- To perform GPU based inference, one can use detect.py file available in the codebase.
+
+## Final performance of our model
+
+[!eval.jpg](https://github.com/amitamola/Strawberry-Counting-and-Ripeness-detection/blob/main/evaluation.jpg)
