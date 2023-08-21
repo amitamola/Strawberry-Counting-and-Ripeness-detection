@@ -2,7 +2,7 @@
 
 **Note- This module is made using help from - https://github.com/WongKinYiu/yolov7**
 
-[!Detection_image.png](https://github.com/amitamola/Strawberry-Counting-and-Ripeness-detection/blob/main/results/final_test/output/2236.png)
+![Detection_image.png](https://github.com/amitamola/Strawberry-Counting-and-Ripeness-detection/blob/main/results/final_test/output/2236.png)
 
 ## 1. Here's description of each Notebook in this codebase:
 -  **1. Dataset split NB**: This noteboook was used to split the original 3000 images into train, validation and test set in 0.8, 0.1 and 0.1 ratio. Instructions to perform same available inside the notebook.
@@ -90,7 +90,7 @@ Clone the yolov7 repository from GitHub by running the following command in the 
     - You can change the epochs according to your need.
     - Also, you can change the batch size according to your GPU. If the training gives a memory error, try reducing it. I eventually had to reduce mine to 4.
 
-[!training.jpg](https://github.com/amitamola/Strawberry-Counting-and-Ripeness-detection/blob/main/training.jpg)
+![training.jpg](https://github.com/amitamola/Strawberry-Counting-and-Ripeness-detection/blob/main/training.jpg)
 
 7. Inference
     - Just download the final best.pt file in the same folder in colab that you trained
@@ -102,4 +102,4 @@ Clone the yolov7 repository from GitHub by running the following command in the 
 
 ## Final performance of our model
 
-[!eval.jpg](https://github.com/amitamola/Strawberry-Counting-and-Ripeness-detection/blob/main/evaluation.jpg)
+![eval.jpg](https://github.com/amitamola/Strawberry-Counting-and-Ripeness-detection/blob/main/evaluation.jpg)
