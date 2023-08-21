@@ -1,0 +1,2 @@
+partially_ripe 498 369 634 565
+fully_ripe 338 276 530 496

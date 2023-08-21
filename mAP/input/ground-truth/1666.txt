@@ -1,0 +1,2 @@
+unripe 940 31 988 101
+partially_ripe 413 317 519 475

@@ -1,0 +1,4 @@
+fully_ripe 322 352 420 446
+unripe 200 350 298 454
+unripe 20 8 44 34
+fully_ripe 1 56 47 156

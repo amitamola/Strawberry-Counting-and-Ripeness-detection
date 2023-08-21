@@ -1,0 +1,2 @@
+partially_ripe 528 454 662 650
+partially_ripe 405 416 527 600

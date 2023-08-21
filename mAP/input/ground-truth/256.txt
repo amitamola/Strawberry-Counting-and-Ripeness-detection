@@ -1,0 +1,8 @@
+unripe 657 274 751 394
+partially_ripe 414 311 524 481
+unripe 824 177 858 207
+unripe 802 107 828 137
+partially_ripe 912 0 1006 54
+unripe 297 370 329 398
+unripe 34 281 98 371
+fully_ripe 232 0 364 61

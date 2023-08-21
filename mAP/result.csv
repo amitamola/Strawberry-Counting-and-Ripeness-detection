@@ -1,0 +1,4 @@
+Labels,Ground Truth Count,Detected Correctly,False Positive,Not Detected
+fully_ripe,204,187,39,17
+partially_ripe,308,284,51,24
+unripe,1199,1139,53,60

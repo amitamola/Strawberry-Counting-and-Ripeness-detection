@@ -1,0 +1,4 @@
+unripe 655 471 755 621
+partially_ripe 653 202 755 332
+unripe 720 274 750 304
+unripe 526 226 578 284
